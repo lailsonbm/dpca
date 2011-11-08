@@ -14,8 +14,7 @@ St = cov(X);
 
 S = Sb - eta*Sw + lambda*St;
 
-%calcular autovetores e ordenar... = PCA
-PCs = PCA(S);
+%calcular autovetores e ordenar...
 end
 
 
