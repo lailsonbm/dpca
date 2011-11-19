@@ -117,3 +117,7 @@
        4             pityriasis rosea                49
        5             cronic dermatitis               52    
        6             pityriasis rubra pilaris        20
+
+--
+
+Missing values replaced by mean.
