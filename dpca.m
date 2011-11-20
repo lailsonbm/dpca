@@ -34,7 +34,9 @@ function [PC,V] = dpca(X, X_labeled, labels, eta, lambda)
     x_j = X_labeled(:,j);
     S_b = S_b + (x_i - x_j)*(x_i - x_j)';
   end
-  S_b = S_b/size(O_b,1);
+  if size(O_b,1) > 0
+    S_b = S_b/size(O_b,1);
+  end
   
   % S_w
   S_w = 0;
@@ -45,12 +47,16 @@ function [PC,V] = dpca(X, X_labeled, labels, eta, lambda)
     x_j = X_labeled(:,j);
     S_w = S_w + (x_i - x_j)*(x_i - x_j)';
   end
-  S_w = S_w/size(O_w,1);
+  if size(O_w,1) > 0
+    S_w = S_w/size(O_w,1);
+  end
   
   % S_t
   S_t = cov(X',1);
   
-  [PC, V] = eig(S_b - eta*S_w + lambda*S_t);
+  S = S_b - eta*S_w + lambda*S_t;
+  
+  [PC, V] = eig(S);
   V = diag(V);
   [~,rindices] = sort(-1*V);
   V = V(rindices);
