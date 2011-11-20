@@ -1,0 +1,109 @@
+DERMATOLOGY
+Dimension = 6
+Original set accuracy: 85.79%
+PCA accuracy: 84.15%
+LDA accuracy: 95.08%
+DPCA accuracy
+    with  5 labeled: 86.21% +-  4.46%
+    with 10 labeled: 90.51% +-  3.18%
+    with 15 labeled: 91.23% +-  2.72%
+    with 20 labeled: 91.94% +-  3.14%
+    with 25 labeled: 92.44% +-  2.76%
+    with 30 labeled: 91.85% +-  2.61%
+    with 35 labeled: 91.87% +-  3.04%
+    with 40 labeled: 91.45% +-  2.97%
+    with 45 labeled: 92.68% +-  2.79%
+    with 50 labeled: 91.04% +-  2.89%
+    general: 91.12% +-  3.54%
+ 
+HORSE
+Dimension = 2
+Original set accuracy: 64.13%
+PCA accuracy: 69.57%
+LDA accuracy: 70.11%
+DPCA accuracy
+    with  5 labeled: 69.01% +-  2.07%
+    with 10 labeled: 69.17% +-  2.12%
+    with 15 labeled: 69.40% +-  1.95%
+    with 20 labeled: 69.26% +-  2.06%
+    with 25 labeled: 69.34% +-  1.90%
+    with 30 labeled: 69.26% +-  2.01%
+    with 35 labeled: 68.88% +-  2.17%
+    with 40 labeled: 68.06% +-  2.17%
+    with 45 labeled: 68.15% +-  2.11%
+    with 50 labeled: 67.86% +-  2.18%
+    general: 68.84% +-  2.14%
+ 
+IRIS
+Dimension = 3
+Original set accuracy: 94.67%
+PCA accuracy: 94.67%
+LDA accuracy: 92.00%
+DPCA accuracy
+    with  5 labeled: 93.68% +-  2.02%
+    with 10 labeled: 93.87% +-  2.12%
+    with 15 labeled: 94.35% +-  1.70%
+    with 20 labeled: 94.63% +-  0.23%
+    with 25 labeled: 94.64% +-  0.27%
+    with 30 labeled: 94.65% +-  0.13%
+    with 35 labeled: 94.65% +-  0.13%
+    with 40 labeled: 94.67% +-  0.00%
+    with 45 labeled: 94.67% +-  0.00%
+    with 50 labeled: 94.67% +-  0.00%
+    general: 94.45% +-  1.13%
+ 
+LYMPH
+Dimension = 4
+Original set accuracy: 72.97%
+PCA accuracy: 63.51%
+LDA accuracy: 78.38%
+DPCA accuracy
+    with  5 labeled: 67.85% +-  4.61%
+    with 10 labeled: 70.39% +-  4.16%
+    with 15 labeled: 71.30% +-  4.08%
+    with 20 labeled: 72.19% +-  3.79%
+    with 25 labeled: 72.11% +-  4.21%
+    with 30 labeled: 72.12% +-  4.61%
+    with 35 labeled: 72.28% +-  4.86%
+    with 40 labeled: 73.19% +-  4.33%
+    with 45 labeled: 73.59% +-  4.71%
+    with 50 labeled: 73.23% +-  4.01%
+    general: 71.83% +-  4.62%
+ 
+SONAR
+Dimension = 2
+Original set accuracy: 81.73%
+PCA accuracy: 60.58%
+LDA accuracy: 77.88%
+DPCA accuracy
+    with  5 labeled: 59.98% +-  5.43%
+    with 10 labeled: 60.54% +-  5.73%
+    with 15 labeled: 60.23% +-  5.13%
+    with 20 labeled: 60.49% +-  4.59%
+    with 25 labeled: 61.98% +-  4.80%
+    with 30 labeled: 60.86% +-  4.65%
+    with 35 labeled: 61.71% +-  4.30%
+    with 40 labeled: 61.72% +-  4.13%
+    with 45 labeled: 61.63% +-  4.59%
+    with 50 labeled: 61.50% +-  3.55%
+    general: 61.06% +-  4.76%
+ 
+WINE
+Dimension = 3
+Original set accuracy: 70.79%
+PCA accuracy: 68.54%
+LDA accuracy: 98.88%
+DPCA accuracy
+    with  5 labeled: 77.63% +-  8.09%
+    with 10 labeled: 84.54% +-  7.49%
+    with 15 labeled: 86.81% +-  8.19%
+    with 20 labeled: 88.79% +-  6.54%
+    with 25 labeled: 90.13% +-  6.26%
+    with 30 labeled: 92.40% +-  5.68%
+    with 35 labeled: 93.25% +-  4.33%
+    with 40 labeled: 94.20% +-  4.26%
+    with 45 labeled: 94.00% +-  4.77%
+    with 50 labeled: 95.39% +-  3.29%
+    general: 89.71% +-  8.02%
+ 
+>>
