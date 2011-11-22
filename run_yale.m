@@ -6,8 +6,9 @@ number_labeled = [0 10 20 50];
 classes = unique(labels);
 plot_strs = {'*b', '+r', 'oc', '.y', 'xg', 'vm'};
 
-[data_labeled,labels_labeled,~] = split_random(data,labels, 30);
+[data_labeled,labels_labeled,~] = split_random(data,labels, 100);
 [T_dpca,V_dpca] = dpca(data, data_labeled, labels_labeled, 10, 0.1);
+% [T_dpca,V_dpca] = pca(data); quando n_labeled = 0
 data_proj = T_dpca(:,1:2)' * data;
 
 for c = classes
